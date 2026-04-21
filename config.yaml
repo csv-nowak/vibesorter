@@ -1,0 +1,35 @@
+# =============================================
+# VibeSorter — Konfigurationsdatei
+# Lokale KI-Dateisortierung — 100% DSGVO-konform
+# Alle Daten bleiben auf deinem Rechner.
+# =============================================
+
+# KI-Modell (lokal über Ollama)
+# Optionen: mistral | llama3 | phi3
+model: "mistral"
+
+profiles:
+
+  business:
+    base_structure:
+      - "Finanzen/Rechnungen/Eingang"
+      - "Finanzen/Rechnungen/Ausgang"
+      - "Finanzen/Steuer"
+      - "Projekte/Aktiv"
+      - "Projekte/Abgeschlossen"
+      - "Personal/Vertraege"
+      - "Personal/Korrespondenz"
+      - "Sonstiges"
+
+  privat:
+    base_structure:
+      - "Finanzen/Rechnungen"
+      - "Finanzen/Kontoauszüge"
+      - "Finanzen/Steuer"
+      - "Medien/Fotos"
+      - "Medien/Videos"
+      - "Dokumente/Versicherungen"
+      - "Dokumente/Wohnen"
+      - "Dokumente/Gesundheit"
+      - "Hobby"
+      - "Sonstiges"
