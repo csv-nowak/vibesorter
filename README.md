@@ -1,3 +1,5 @@
+> 🇩🇪 Deutsch (diese Datei) · 🇬🇧 [English](README_EN.md)
+
 # 🗂 VibeSorter
 
 **Lokale KI-Dateisortierung — 100% DSGVO-konform.**
@@ -103,6 +105,15 @@ Die KI läuft auf `localhost:11434` — dein Rechner, dein Netzwerk, deine Daten
 | `phi3` | ~2.3 GB | Schneller, gut für schwächere Hardware |
 
 Modell in `config.yaml` anpassen. Modell mit `ollama pull <modellname>` herunterladen.
+
+---
+
+## Datenschutz in einfachen Worten
+
+- Die KI sieht nie deine Dateien — nur deren **Namen**.
+- Dateinamen werden im Arbeitsspeicher der lokalen Ollama-Instanz verarbeitet und danach verworfen.
+- Nach dem einmaligen Download des Modells ist keine Internetverbindung mehr nötig.
+- Keine Analytics, keine Telemetrie, kein Account.
 
 ---
 
